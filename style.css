@@ -68,3 +68,20 @@ footer {
     background-color: #dcdde1;
     margin-top: 30px;
 }
+
+/* Mobile view: disable accordion */
+@media (max-width: 768px) {
+
+    .accordion-content {
+        max-height: none;
+        padding: 20px;
+    }
+
+    .accordion-item {
+        box-shadow: none;
+    }
+
+    .accordion-title {
+        cursor: default;
+    }
+}
